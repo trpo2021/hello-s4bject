@@ -14,7 +14,7 @@ int main()
          {' ','a','b','c','d','e','f','g','h'}};
     for(int i = 0;i < 9;i++){
         for(int j = 0;j < 9;j++){
-            printf("%3c", board[i][j]);
+            printf("%2c", board[i][j]);
         }
         printf("0\n");
     }    
